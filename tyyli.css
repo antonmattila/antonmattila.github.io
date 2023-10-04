@@ -45,6 +45,9 @@ h1 {
 .heading {
   margin-top: 5%;
 }
+img {
+  width: 100%;
+}
 
 nav {
   display: flex;
