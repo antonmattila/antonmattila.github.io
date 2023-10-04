@@ -75,6 +75,8 @@ nav {
 .link a:hover {
   text-decoration: underline;
   text-decoration-color: #000000;
+  text-decoration-thickness: 30%;
+
 }
 
 @media(max-width: 858px) {
