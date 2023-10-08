@@ -49,11 +49,23 @@ h1 {
   animation-duration: 5s;
   animation-iteration-count: infinite;
 }
+
 @keyframes animaatio {
-  0% {color:red}
-  33% {color: honeydew}
-  66% {color:blue}
-  100% {color:red}
+  0% {
+    color: red
+  }
+
+  33% {
+    color: honeydew
+  }
+
+  66% {
+    color: blue
+  }
+
+  100% {
+    color: red
+  }
 }
 
 img {
