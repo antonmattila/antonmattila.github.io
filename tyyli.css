@@ -42,9 +42,20 @@ h1 {
   border: 1%;
   display: inline-block;
 }
+
 .heading {
   margin-top: 5%;
+  animation-name: animaatio;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
+@keyframes animaatio {
+  0% {color:red}
+  33% {color: honeydew}
+  66% {color:blue}
+  100% {color:red}
+}
+
 img {
   width: 100%;
 }
@@ -70,13 +81,26 @@ nav {
 
 .link a {
   color: honeydew;
+  position: relative;
 }
 
 .link a:hover {
   text-decoration: underline;
-  text-decoration-color: #000000;
+  text-decoration-color: honeydew;
   text-decoration-thickness: 30%;
+}
 
+
+.hhlinkki {
+  color: honeydew;
+  margin: 0;
+  padding: 0%;
+}
+
+.hhlinkki:hover {
+  text-decoration: underline;
+  text-decoration-color: honeydew;
+  text-decoration-thickness: 10%;
 }
 
 @media(max-width: 858px) {
